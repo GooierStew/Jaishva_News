@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<title>Jaishva News</title>
+
+<head>
+
+<style>
+h1 {
+	font-family:Rockwell;
+	text-align:center;
+ 	}
+</style>
+
+<style>
+h2 {
+	font-family:Baskerville;
+	text-align:center;
+	}
+</style>
+
+<style>
+h3 {
+	color:White;
+	font-family:Papyrus;
+}
+	</style>
+
+</head>
+
+<style>
+.header {
+	color:FireBrick;
+	background-color:White;
+	}
+</style>
+
+<div class="header">
+	<h1>Subscription Options</h1>
+	
+</div>
+
+<style>	
+#navbar ul { 
+margin: 0; 
+padding: 5px; 
+list-style-type: none; 
+text-align: center; 
+background-color:White; 
+} 
+
+#navbar ul li { 
+display: inline; 
+} 
+
+#navbar ul li a { 
+text-decoration: none; 
+padding: .2em 1em; 
+color:White; 
+background-color:Firebrick; 
+} 
+
+#navbar ul li a:hover { 
+color:FireBrick; 
+background-color:White; 
+}
+.footer {
+	color:FireBrick;
+	background-color:White;
+	text-align:center;
+	}
+
+p {
+	color:White;
+	}
+	
+.subscription1 {
+	background-image: url("/Images/5dollar.jfif");
+	
+	
+	}
+</style>
+
+
+</head>
+
+<body style=background-color:FireBrick;>
+
+<div id="navbar"> 
+<ul> 
+<li><a href="file:///C:/Users/705Parent05/Documents/Jaishva%20News/home.html">Home</a></li> 
+<li><a href="file:///C:/Users/705Parent05/Documents/Jaishva%20News/test.html">Today's News</a></li>   
+<li><a href="file:///C:/Users/705Parent05/Documents/Jaishva%20News/subscribe.html">Subcribe Here!</a></li> 
+<li><a href="http://github.com">Link 4</a></li> 
+</ul> 
+</div>
+
+<div class="subscription1">
+<p style="font-size: 50px; color:#A15935">Basic Subscription</p>
+<img src="file:///C:/Users/705Parent05/Documents/Jaishva%20News/Images/5dollar.jfif" width=200>
+
+<p>Cost: $5 per month</p>
+<p>Perks: Today's News</p>
+
+<p id="Basic"></p>
+
+<button type="button"
+onclick='document.getElementById("Basic").innerHTML =
+"Successfully Purchased!"'>Purchase</button>
+
+</div>
+<p style="font-size: 50px; color:Silver">Standard Subscription</p>
+<img src="file:///C:/Users/705Parent05/Documents/Jaishva%20News/Images/10_dollar_bill.jpg" width=200>
+
+<p>Cost: $10 per month
+<p>Perks: News up to a month in the past
+
+<p id="Standard"></p>
+
+<button type="button"
+onclick='document.getElementById("Standard").innerHTML =
+"Successfully Purchased!"'>Purchase</button>
+
+<p style="font-size: 50px; color:Gold">Premium Subscription</p>
+<img src="file:///C:/Users/705Parent05/Documents/Jaishva%20News/Images/20dollar.jfif" width=200>
+
+<p>Cost: $20 per month</p>
+<p>Perks: All News</p>
+
+<p id="Premium"></p>
+
+<button type="button"
+onclick='document.getElementById("Premium").innerHTML =
+"Successfully Purchased!"'>Purchase</button>
+
+</html>

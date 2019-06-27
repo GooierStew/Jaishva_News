@@ -1,0 +1,54 @@
+
+h1 {
+	font-family:Rockwell;
+	text-align:center;
+ 	}
+
+h2 {
+	font-family:Baskerville;
+	text-align:center;
+	}
+
+h3 {
+	color:White;
+	font-family:Papyrus;
+}
+	
+.header {
+	color:FireBrick;
+	background-color:White;
+	}
+
+#navbar ul { 
+margin: 0; 
+padding: 5px; 
+list-style-type: none; 
+text-align: center; 
+background-color:White; 
+} 
+
+#navbar ul li { 
+display: inline; 
+} 
+
+#navbar ul li a { 
+text-decoration: none; 
+padding: .2em 1em; 
+color:White; 
+background-color:Firebrick; 
+} 
+
+#navbar ul li a:hover { 
+color:FireBrick; 
+background-color:White; 
+}
+
+.footer {
+	color:FireBrick;
+	background-color:White;
+	text-align:center;
+	}
+
+p {
+	color:White;
+	}
